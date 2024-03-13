@@ -6,6 +6,11 @@
 	box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 body{
 	font-family: "Cormorant Garamond", serif;
 	font-weight: 100;
@@ -33,6 +38,16 @@ body{
 	padding: 5px 35px;
 	border-radius: 25px;
 	max-width: 350px;
+}
+
+.header h1{
+	font-size: 7rem;
+}
+
+.planes a{
+	text-decoration: none;
+	color: #FFF;
+	font-weight: 900;
 }
 
 /*seccion planes y servicios*/
@@ -84,6 +99,8 @@ hr{
 	color:#69443C;
 }
 
+
+
 /*Secccion regular cleaning*/
 
 .regular-cleaning{
@@ -91,6 +108,7 @@ hr{
 	height: 100vh;
 	background-color: #FFFBF5;
 	font-size: 23px;
+	padding: 0 40px;
 }
 
 .regular-cleaning h2{
@@ -161,6 +179,8 @@ hr{
 .contenedor-extras{
 	width: 100%;
 	height: 100vh;
+	padding: 40px 40px;
+	margin-bottom: 120px;
 }
 
 .subtitle{
@@ -172,12 +192,12 @@ hr{
 
 .extras-img{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .extras-img img{
-	width: 380px;
+	width: 450px;
 }
 
 /* seccion contenedor about me */
@@ -193,6 +213,7 @@ hr{
 
 .about-img{
 	width: 50%;
+	min-width: 350px;
 	background-image: url('./img/imagen-sillon.webp');
 	background-position: center;
 	border-radius: 50% 50% 0 0;
