@@ -290,6 +290,11 @@ hr{
 
 
 @media screen and (max-width:700px){
+
+	.header h1{
+		font-size: 2rem;
+	}
+
 	.contenedor-card{
 		flex-direction: column;
 		justify-content: center;
@@ -299,5 +304,9 @@ hr{
 	}
 	.planes{
 		height: 100%;
+	}
+
+	.about-img {
+		display: none;
 	}
 }
