@@ -527,6 +527,29 @@ hr{
 		padding-top: 50px;
 	}
 
+	.contenedor-extras{
+		width: 100%;
+		height: auto;
+		padding: 0 40px;
+	}
+
+	.subtitle{
+		text-align: center;
+		font-size: 50px;
+		color: #C8A287;
+		padding: 20px 0;
+	}
+	
+	.extras-img{
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	
+	.extras-img img{
+		width: 100%;
+	}
+
 	.about-img {
 		display: none;
 	}
