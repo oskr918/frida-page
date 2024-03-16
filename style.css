@@ -252,26 +252,21 @@ hr{
 
 .card-item{
 	display: flex;
-	justify-content: space-around;
-	padding-top: 40px;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+
+.card-item img{
+	width: 60px;
 }
 
 .item1{
-	flex-basis: 33%;
-}
-.item2{
-	align-self: self-end;
-	flex-basis: 33%;
-	width: 20rem;
-	height: 1px;
-	border: 1px solid #69443C;
-	position: relative;
-	margin-bottom: 5px;
+	flex-basis: 40%;
+	display: flex;
+	align-items: center;
+	gap: 30px;
 }
 
-.item3{
-	flex-basis: 33%;
-}
 
 .contenedor-btn{
 	width: 100%;
