@@ -116,6 +116,10 @@ h2 {
 	.menu-button-container {
 	  display: flex;
 	}
+
+	.logo img{
+		width: 8rem;
+	  }
 	.menu {
 	  position: absolute;
 	  top: 0;
