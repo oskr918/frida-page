@@ -245,7 +245,6 @@ hr{
 .regular-cleaning{
 	width: 100%;
 	height: auto;
-	background-color: #FFFBF5;
 	font-size: 23px;
 	padding: 0 40px;
 }
@@ -289,7 +288,6 @@ hr{
 	margin-top: 10px;
 	width: 100%;
 	height: auto;
-	background-color: #FFFBF5;
 	font-size: 23px;
 	display: flex;
 	justify-content: center;
@@ -308,13 +306,10 @@ hr{
 	width: 60%;
 }
 
-.arrow{
-	float: right;
-	background-color: #EFEFEF;
-	padding: 20px;
-	border-radius: 50%;
-	box-shadow: 3px 1px 27px black;
+.contenedor-btn .btn{
+	border:1px solid#1c1919;
 }
+
 /* seccion extras */
 
 .contenedor-extras{
