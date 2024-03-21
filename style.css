@@ -279,12 +279,9 @@ hr{
 	padding-top: 20px;
 }
 
-.card-item img{
-	width: 60px;
-}
 
 .item1{
-	flex-basis: 40%;
+	flex-basis: 48%;
 	display: flex;
 	align-items: center;
 	gap: 30px;
@@ -310,13 +307,15 @@ hr{
 	align-items: center;
 	font-size: 23px;
 }
-.recomendado h2{
-	font-size: 50px;
-	color: #C8A287;
-	
+
+.regular-cleaning .p-recomendado{
+	font-size: 16px;
+	text-align: center;
 }
-.recomendado p{
-	width: 80%;
+
+.contenedor-estrella{
+	display: flex;
+	justify-content: center;
 }
 
 .contenedor-btn .btn{
