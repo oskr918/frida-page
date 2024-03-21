@@ -50,9 +50,7 @@ h2 {
 	padding-top: 100px;
   }
 
-  .logo img{
-	width: 10rem;
-  }
+ 
   .menu {
 	display: flex;
 	flex-direction: row;
@@ -122,7 +120,7 @@ h2 {
 	}
 
 	.logo img{
-		width: 8rem;
+		display: none;
 	  }
 	.menu {
 	  position: absolute;
