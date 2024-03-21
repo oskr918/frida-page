@@ -31,12 +31,14 @@ h2 {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #e16c6c;
+	background: linear-gradient(to top, #91786f, #c7b3aa);
 	color: #FFF;
 	height: 60px;
-	padding: 1em;
+	padding: 2em;
 	font-size: 20px;
 	font-weight: 200;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
   }
 
   .top-nav a{
@@ -168,10 +170,7 @@ h2 {
 	width: 100%;
 	height: 100vh;
 	color: #69443C;
-	background-image: url('./img/fondo-tela.webp');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	padding-top: 6rem;
 }
 
 .btn{
@@ -182,16 +181,12 @@ h2 {
 	border-radius: 25px;
 	max-width: 350px;
 	font-weight: 400;
+	border: 1px solid #69443C;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.header h1{
-	font-size: 7rem;
-	white-space: nowrap;
-	font-family: "Cormorant Garamond", serif;
-}
-
-.header h2{
-	font-weight: 300;
+.header img{
+	width: 100%;
 }
 
 .planes a{
@@ -209,6 +204,8 @@ h2 {
 	height: auto;
 	background-color: #C8A287;
 	text-align: center;
+	background: linear-gradient(to right, #C8A287, #8E725C);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .planes-subtitle{
@@ -234,6 +231,8 @@ h2 {
 	width: 15rem;
 	background-color: #FFF;
 	padding: 15px 25px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+
 }
 .card h4{
 	color: #C8A287;
@@ -242,9 +241,10 @@ h2 {
 }
 
 span{
-	background-color: #C8A287;
+	background: linear-gradient(to top, #755e59, #b9a49f);
 	padding: 7px 25px;
 	margin-top: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 hr{
@@ -524,7 +524,7 @@ hr{
 	margin-top: 10px;
 	padding: 6px 0px;
 	font-size: 16px;
-	background-color: #D1966A;
+	background: linear-gradient(to top, #755e59, #b9a49f);
 	color: #fff;
 	border: none;
 	padding: 10px 0;
@@ -689,7 +689,7 @@ hr{
 	margin-top: 10px;
 	padding: 6px 0px;
 	font-size: 16px;
-	background-color:#D1966A;
+	background: linear-gradient(to top, #755e59, #b9a49f);
 	color: #fff;
 	border: none;
 	padding: 10px 0;
