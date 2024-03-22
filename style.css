@@ -50,6 +50,10 @@ h2 {
 	padding-top: 100px;
   }
 
+  .logo img{
+	width: 10rem;
+  }
+
  
   .menu {
 	display: flex;
@@ -159,6 +163,7 @@ h2 {
 	}
   }
 
+
 .header{
 	display: flex;
 	flex-direction: column;
@@ -258,7 +263,6 @@ hr{
 .regular-cleaning{
 	width: 100%;
 	height: 100vh;
-	font-size: 23px;
 	padding: 60px 80px;
 
 }
@@ -282,9 +286,12 @@ hr{
 	flex-basis: 48%;
 	display: flex;
 	align-items: center;
-	gap: 30px;
+	gap: 20px;
 }
 
+.item1 img{
+	width: 70px;
+}
 
 .contenedor-btn{
 	width: 100%;
@@ -298,17 +305,16 @@ hr{
 .recomendado{
 	width: 100%;
 	height: 100vh;
-	font-size: 23px;
 	display: flex;
 	justify-content:space-evenly;
 	flex-direction: column;
 	align-items: center;
-	font-size: 23px;
 }
 
 .regular-cleaning .p-recomendado{
-	font-size: 16px;
 	text-align: center;
+	font-size: 12px;
+	padding-bottom: 10px;
 }
 
 .contenedor-estrella{
@@ -461,35 +467,19 @@ hr{
 	padding: 40px 40px;
 }
 
-.contenedor-contacto{
-	display: flex;
-	flex-direction: column;
-}
-
-.contact h2{
-	text-align: right;
-}
-
 .contact h3{
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
-
-.contact-img{
-	width: 100%;
-	height: 280px;
-	background-image: url('./img/contact-img.webp');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat
-}
-
-.contact-info{
+.contact-me{
 	display: flex;
-	gap: 60px;
-	padding-top: 30px;
-}
+	justify-content: space-around;
+  }
 
+  .whatsapp img{
+	width: 9rem;
+	margin-bottom: 30px;
+  }
 
 /*emailjs*/
 
@@ -531,17 +521,7 @@ hr{
 	display: flex;
   }
 
-  .contact-me{
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row-reverse;
-	align-items: end;
-  }
 
-  .whatsapp img{
-	width: 9rem;
-	margin-bottom: 30px;
-  }
 @media screen and (max-width:700px){
 
 	.header h1{
@@ -632,20 +612,6 @@ hr{
 	background-color: #EFEFEF;
 	padding: 40px 40px;
 
-}
-
-.contenedor-contacto{
-	display: flex;
-}
-
-.contact h2{
-	text-align: center;
-}
-
-.contact h3{
-	font-size: 3rem;
-	white-space: nowrap;
-	text-align: center;
 }
 
 
